@@ -64,7 +64,7 @@ const Register = () => {
             <div className="container">
                 <nav aria-label="breadcrumb">
                     <ul className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="#">تاپ لرن</a></li>
+                        <li className="breadcrumb-item"><a href="/">تاپ لرن</a></li>
                         <li className="breadcrumb-item active" aria-current="page">عضویت در سایت</li>
                     </ul>
                 </nav>
@@ -142,8 +142,8 @@ const Register = () => {
                             </div>
 
                             <div className="link">
-                                <a href=""> <i className="zmdi zmdi-assignment"></i> قوانین و مقررات سایت !</a>
-                                <a href=""> <i className="zmdi zmdi-account"></i> ورود به سایت </a>
+                                <a href="/"> <i className="zmdi zmdi-assignment"></i> قوانین و مقررات سایت !</a>
+                                <a href="/"> <i className="zmdi zmdi-account"></i> ورود به سایت </a>
                             </div>
 
                             <button className="btn btn-success"> عضویت در سایت </button>
