@@ -61,7 +61,7 @@ const Login = ({ history }) => {
             <div className="container">
                 <nav aria-label="breadcrumb">
                     <ul className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="#">تاپ لرن</a></li>
+                        <li className="breadcrumb-item"><a href="/">تاپ لرن</a></li>
                         <li className="breadcrumb-item active" aria-current="page">ورود به سایت</li>
                     </ul>
                 </nav>
@@ -112,8 +112,8 @@ const Login = ({ history }) => {
                             </div>
 
                             <div className="link">
-                                <a href=""> <i className="zmdi zmdi-lock"></i> رمز عبور خود را فراموش کرده ام !</a>
-                                <a href=""> <i className="zmdi zmdi-account"></i> عضویت در سایت </a>
+                                <a href="/"> <i className="zmdi zmdi-lock"></i> رمز عبور خود را فراموش کرده ام !</a>
+                                <a href="/"> <i className="zmdi zmdi-account"></i> عضویت در سایت </a>
                             </div>
 
                             <button className="btn btn-success"> ورود به سایت </button>
