@@ -6,7 +6,7 @@ const Repair = () => {
             <div className="container">
                 <nav aria-label="breadcrumb">
                     <ul className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="#">تاپ لرن</a></li>
+                        <li className="breadcrumb-item"><a href="/">تاپ لرن</a></li>
                         <li className="breadcrumb-item active" aria-current="page"> پنل کاربری </li>
                     </ul>
                 </nav>
@@ -21,8 +21,8 @@ const Repair = () => {
 
                                     <div className="avatar-layer">
                                         <div className="img-layer">
-                                            <a href="" className="change-image"><i className="zmdi zmdi-edit"></i></a>
-                                            <img src="images/pic/avatar.jpg" />
+                                            <a href="/" className="change-image"><i className="zmdi zmdi-edit"></i></a>
+                                            <img src="images/pic/avatar.jpg" alt='ax' />
                                         </div>
                                         <div className="detail">
                                             <span> ایمان مدائنی </span>
@@ -34,11 +34,11 @@ const Repair = () => {
                                         <header><h3> میز کار </h3></header>
                                         <div className="inner">
                                             <ul>
-                                                <li><a href=""> مشاهده حساب کابری </a></li>
-                                                <li><a href=""> ویرایش حساب کابری </a></li>
-                                                <li><a href=""> تغییر رمز عبور </a></li>
-                                                <li><a href=""> تنظیمات حساب کاربری </a></li>
-                                                <li><a href=""> خروج از حساب کاربری </a></li>
+                                                <li><a href="/"> مشاهده حساب کابری </a></li>
+                                                <li><a href="/"> ویرایش حساب کابری </a></li>
+                                                <li><a href="/"> تغییر رمز عبور </a></li>
+                                                <li><a href="/"> تنظیمات حساب کاربری </a></li>
+                                                <li><a href="/"> خروج از حساب کاربری </a></li>
                                             </ul>
                                         </div>
                                     </section>
@@ -100,8 +100,8 @@ const Repair = () => {
                                                 </div>
                                                 <div className="col-md-7 col-sm-8 col-xs-12">
                                                     <div className="link">
-                                                        <a href=""> <i className="zmdi zmdi-lock"></i> رمز عبور خود را فراموش کرده ام !</a>
-                                                        <a href=""> <i className="zmdi zmdi-account"></i> عضویت در سایت </a>
+                                                        <a href="/"> <i className="zmdi zmdi-lock"></i> رمز عبور خود را فراموش کرده ام !</a>
+                                                        <a href="/"> <i className="zmdi zmdi-account"></i> عضویت در سایت </a>
                                                     </div>
                                                 </div>
                                                 <div className="col-md-7 col-sm-8 col-xs-12">
