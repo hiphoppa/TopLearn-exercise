@@ -7,7 +7,7 @@ const Accounts = () => {
             <div className="container">
                 <nav aria-label="breadcrumb">
                     <ul className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="#">تاپ لرن</a></li>
+                        <li className="breadcrumb-item"><a href="/">تاپ لرن</a></li>
                         <li className="breadcrumb-item active" aria-current="page"> پنل کاربری </li>
                     </ul>
                 </nav>
@@ -22,8 +22,8 @@ const Accounts = () => {
 
                                     <div className="avatar-layer">
                                         <div className="img-layer">
-                                            <a href="" className="change-image"><i className="zmdi zmdi-edit"></i></a>
-                                            <img src="images/pic/avatar.jpg" />
+                                            <a href="/" className="change-image"><i className="zmdi zmdi-edit"></i></a>
+                                            <img src="images/pic/avatar.jpg" alt="ax" />
                                         </div>
                                         <div className="detail">
                                             <span> ایمان مدائنی </span>
@@ -35,11 +35,11 @@ const Accounts = () => {
                                         <header><h3> میز کار </h3></header>
                                         <div className="inner">
                                             <ul>
-                                                <li><a href=""> مشاهده حساب کابری </a></li>
+                                                <li><a href="/"> مشاهده حساب کابری </a></li>
                                                 <li><Link to='/repair'> ویرایش حساب کاربری </Link></li>
-                                                <li><a href=""> تغییر رمز عبور </a></li>
-                                                <li><a href=""> تنظیمات حساب کاربری </a></li>
-                                                <li><a href=""> خروج از حساب کاربری </a></li>
+                                                <li><a href="/"> تغییر رمز عبور </a></li>
+                                                <li><a href="/"> تنظیمات حساب کاربری </a></li>
+                                                <li><a href="/"> خروج از حساب کاربری </a></li>
                                             </ul>
                                         </div>
                                     </section>
