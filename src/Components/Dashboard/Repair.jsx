@@ -1,8 +1,12 @@
 import React, { Fragment } from 'react';
+import { Helmet } from 'react-helmet';
 
 const Repair = () => {
     return (
         <Fragment>
+            <Helmet>
+                <title>تاپلرن | ویرایش دوره ها</title>
+            </Helmet>
             <div className="container">
                 <nav aria-label="breadcrumb">
                     <ul className="breadcrumb">

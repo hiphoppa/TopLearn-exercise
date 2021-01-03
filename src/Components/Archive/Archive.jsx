@@ -1,10 +1,14 @@
 import React, { Fragment } from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
 
 const Archive = () => {
     return (
         <Fragment>
+            <Helmet>
+                <title>تاپلرن | دوره ها</title>
+            </Helmet>
             <div className="container">
                 <nav aria-label="breadcrumb">
                     <ul className="breadcrumb">

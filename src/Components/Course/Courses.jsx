@@ -1,8 +1,12 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Courses = () => {
     return (
         <section className="terms-items">
+            <Helmet>
+                <title>تاپلرن | دوره ها</title>
+            </Helmet>
             <header>
                 <h2> آخرین دوره های تاپ لرن </h2>
                 <a href="/"> مشاهده همه دوره ها </a>
