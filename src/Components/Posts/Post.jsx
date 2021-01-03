@@ -1,8 +1,12 @@
 import React, { Fragment } from 'react';
+import { Helmet } from 'react-helmet';
 
 const Post = () => {
     return (
         <Fragment>
+            <Helmet>
+                <title>تاپلرن | ساخت ربات تلگرام</title>
+            </Helmet>
             <div className="container">
                 <nav aria-label="breadcrumb">
                     <ul className="breadcrumb">
