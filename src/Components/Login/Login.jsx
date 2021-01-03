@@ -3,6 +3,7 @@ import { toast } from 'react-toastify';
 import { LoginUser } from '../../Services/userServices';
 import { withRouter } from "react-router-dom";
 import SimpleReactValidator from "simple-react-validator";
+import { Helmet } from 'react-helmet';
 
 
 const Login = ({ history }) => {
@@ -58,6 +59,9 @@ const Login = ({ history }) => {
     }
     return (
         <Fragment>
+            <Helmet>
+                <title>تاپلرن | صفحه ورود</title>
+            </Helmet>
             <div className="container">
                 <nav aria-label="breadcrumb">
                     <ul className="breadcrumb">
