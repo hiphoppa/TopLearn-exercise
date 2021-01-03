@@ -2,6 +2,7 @@ import React, { Fragment, useRef, useState } from 'react';
 import { toast } from "react-toastify";
 import { registerUser } from '../../Services/userServices';
 import SimpleReactValidator from "simple-react-validator";
+import { Helmet } from 'react-helmet';
 
 const Register = () => {
     const [fullname, setfullname] = useState('')
@@ -61,6 +62,9 @@ const Register = () => {
 
     return (
         <Fragment>
+            <Helmet>
+                <title>تاپلرن | صفحه ثبت نام</title>
+            </Helmet>
             <div className="container">
                 <nav aria-label="breadcrumb">
                     <ul className="breadcrumb">
