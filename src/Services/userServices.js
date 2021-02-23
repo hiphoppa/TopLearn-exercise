@@ -9,3 +9,6 @@ export const registerUser = user => {
 export const LoginUser = user => {
     return http.post(`${config.localapi}/api/login`, JSON.stringify(user))
 }
+export const GetCourses = () => {
+    return http.get(`${config.localapi}/api/courses`);
+}
